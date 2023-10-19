@@ -3,8 +3,8 @@
 // Example Data 1
 
 var payRate = 12.50;
-var hoursWorked = 20
-var overtimeHours = hoursWorked - 20
+var hoursWorked = 20;
+var overtimeHours = hoursWorked - 20;
 
 var grossPay = (payRate * hoursWorked) + (overtimeHours * payRate * 1.5);
 
@@ -22,8 +22,8 @@ console.log("The gross pay would be: $" + grossPay.toFixed(2) +
 // Example Data 2 
 
 var payRate = 25.00;
-var hoursWorked = 40
-var overtimeHours = hoursWorked - 40
+var hoursWorked = 40;
+var overtimeHours = hoursWorked - 40;
             
 var grossPay = (payRate * hoursWorked) + (overtimeHours * payRate * 1.5);
             
