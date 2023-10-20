@@ -44,7 +44,7 @@ console.log("The annual gross pay is $" + annualGrossPay +
             + taxRate + " at a tax rate of 15%.");
 
 if (grossPay <= 12000) {
-    taxRate = grossPay *  .05
+    taxRate = grossPay *  .05;
 }
 
 console.log("You worked " + hoursWorked + " hours this period. Because you earn $" 
