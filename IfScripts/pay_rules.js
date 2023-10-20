@@ -9,7 +9,7 @@ var overtimeHours = hoursWorked - 20;
 var grossPay = (payRate * hoursWorked) + (overtimeHours * payRate * 1.5);
 
 if (hoursWorked > 40) {
-    overtimeHours = hoursWorked - 40;
+    overtimeHours = hoursWorked - 20;
 }
 
 else {
