@@ -1,4 +1,5 @@
 "use strict;"
+
 console.log("start index.js");
 
 window.onload = init;
