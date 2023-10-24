@@ -16,4 +16,28 @@ function convertFtoC(fahrenheitTemperature) {
 
     let fahrenheitTemperature = 92;
     let celsiusTemperature = convertFtoC(fahrenheitTemperature);
-    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius");
+    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius.");
+
+    fahrenheitTemperature = 212;
+    celsiusTemperature = convertFtoC(fahrenheitTemperature);
+    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius.");
+
+    fahrenheitTemperature = 90;
+    celsiusTemperature = convertFtoC(fahrenheitTemperature);
+    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius.");
+
+    fahrenheitTemperature = 72;
+    celsiusTemperature = convertFtoC(fahrenheitTemperature);
+    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius.");
+
+    fahrenheitTemperature = 32;
+    celsiusTemperature = convertFtoC(fahrenheitTemperature);
+    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius.");
+
+    fahrenheitTemperature = 0;
+    celsiusTemperature = convertFtoC(fahrenheitTemperature);
+    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius.");
+
+    fahrenheitTemperature = -40;
+    celsiusTemperature = convertFtoC(fahrenheitTemperature);
+    console.log(fahrenheitTemperature + " degrees Fahrenheit is " + celsiusTemperature.toFixed(2) + " degress Celsius.");
